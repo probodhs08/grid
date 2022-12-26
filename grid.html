@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>grid
+</title>
+<style>
+.i1{
+background-color: aqua;
+}
+.i2{
+    column: ;
+}
+@media(max-width:500px)
+{
+.container{
+    grid-template-areas:'header header header header header header'
+    'context context introduction introduction introduction introduction'
+    'left content left content left content right context right context right context'
+    'left content left content left content right context right context right context'
+ 
+}
+}
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="i1">header</div>
+    <div class="i2">content</div>
+    <div class="i3">portfolio</div>
+    <div class="i4">left content</div>
+    <div class="i5">right content</div>
+    <div class="i6">footer</div>
+</div>
+</body>
+</html>
